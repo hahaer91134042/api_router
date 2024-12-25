@@ -1,0 +1,26 @@
+{
+    "host": {
+        "port":  "8585",
+        "version": "0.0.1",
+        "logMode": 1,
+        "httpMode": 0,
+        "auth": {
+            "certFileName": "certFileName",
+            "keyFileName": "keyFileName"
+        }
+    },
+    "db": {
+        "backstage" : {
+            "host": "192.168.10.39",
+            "port": "3306",
+            "user": "root",
+            "password": "1qaz2wsx3edc",
+            "database": "tpi_1"
+        }
+    },
+    "externalSites": {
+        "da": {
+            "url": "http://da.showplay.vip/"
+        }
+    }
+}
